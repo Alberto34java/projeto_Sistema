@@ -12,4 +12,8 @@ class AcaoController extends Controller
         # code...
         return view('home.index');
     }
+
+    public function adm(){
+        return view('');
+    }
 }
