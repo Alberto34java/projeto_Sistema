@@ -15,6 +15,7 @@ class CreateFormacaoTable extends Migration
     {
         Schema::create('formacao', function (Blueprint $table) {
             $table->id();
+            $table->string('nome');
             $table->timestamps();
         });
     }
