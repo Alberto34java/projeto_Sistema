@@ -15,9 +15,15 @@ use Illuminate\Support\Facades\Route;
 /**Route::get('/', function () {
     return view('welcome');
 });
- *
- */
-Route::get('view/home}', function () {
+ *Route::get('/home', function () {
     return view('home.index');
 
+});
+
+Route::get('/home', [AcaoController::class, 'index'])->name('home');
+ */
+
+
+Route::get('/', function () {
+    return view('welcome');
 });
