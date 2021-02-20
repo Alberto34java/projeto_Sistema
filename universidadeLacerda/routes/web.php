@@ -27,3 +27,7 @@ Route::get('/home', [AcaoController::class, 'index'])->name('home');
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/home', function () {
+    return view('home.index');
+});
