@@ -39,6 +39,11 @@ class FormacaoController extends Controller
     }
 
     /**
+     *
+     *
+     * Metodo 
+     */
+    /**
      * Display the specified resource.
      *
      * @param  \App\Models\Formacao  $formacao
