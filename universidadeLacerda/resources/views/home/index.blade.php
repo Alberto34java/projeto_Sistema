@@ -18,7 +18,7 @@
               <a class="nav-link" href="{{ url('acao/adm') }}">Admin <span class="sr-only"></span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Funcionario</a>
+              <a class="nav-link" href="{{ url('funcionario/login') }}">Funcionario</a>
             </li>
 
 
