@@ -25,6 +25,7 @@ class FormacaoController extends Controller
     public function create()
     {
         //
+        return view('');
     }
 
     /**
@@ -41,7 +42,7 @@ class FormacaoController extends Controller
     /**
      *
      *
-     * Metodo 
+     * Metodo
      */
     /**
      * Display the specified resource.
